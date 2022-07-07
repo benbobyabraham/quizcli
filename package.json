@@ -1,8 +1,7 @@
 {
   "name": "cliquiz",
-  
   "version": "1.0.0",
-  "description": "",
+  "description": "> **command to activates the quiz**\r ### **testcli**\r > **command to tests if the cli is working fine**",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "takequiz": "./index.js",
-    "testcli": "./test_cli.js"
+    "takequiz": "index.js",
+    "testcli": "test_cli.js"
   },
   "dependencies": {
     "chalk": "^5.0.1",
@@ -22,5 +21,14 @@
     "gradient-string": "^2.0.1",
     "inquirer": "^9.0.0",
     "nanospinner": "^1.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbobyabraham/quizcli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benbobyabraham/quizcli/issues"
+  },
+  "homepage": "https://github.com/benbobyabraham/quizcli#readme"
 }
