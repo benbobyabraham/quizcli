@@ -1,5 +1,5 @@
 {
-  "name": "cliquiz",
+  "name": "quiz-cli-tool",
   "version": "1.0.0",
   "description": "> **command to activates the quiz**\r ### **testcli**\r > **command to tests if the cli is working fine**",
   "main": "index.js",
